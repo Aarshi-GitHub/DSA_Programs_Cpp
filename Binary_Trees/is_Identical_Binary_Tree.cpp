@@ -61,7 +61,7 @@ void levelOrderTraversal(node* root){
     cout<<"----------------------------"<<endl;
 }
 
-int isIdentical(node* root1,node* root2){
+bool isIdentical(node* root1,node* root2){
     if(root1==NULL && root2==NULL) return true;
     if((root1==NULL && root2!=NULL) || (root1!=NULL && root2==NULL))
         return false;
